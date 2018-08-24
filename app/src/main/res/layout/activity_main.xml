@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+  <Button
+      android:id="@+id/open_activity"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:onClick="openActivity"
+      android:text="OPEN SECOND ACTIVITY" />
+
+  <Button
+      android:id="@+id/dialog"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:onClick="dialog_fragment"
+      android:text="OPEN DIALOG FRAGMENT" />
+</LinearLayout>
